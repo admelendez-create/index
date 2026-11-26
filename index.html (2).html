@@ -1,0 +1,109 @@
+<html>
+
+ <style> 
+  .menu { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+    background-color: #F8CACA; 
+    padding: 20px; 
+    border-radius: 12px; 
+  } 
+
+  .menu-item {
+    position: relative;
+  }
+
+  .menu a { 
+    display: inline-block;
+    background-color: #E7EFC5; 
+    color: #95AC8C; 
+    padding: 12px 20px; 
+    text-decoration: none; 
+    border-radius: 6px; 
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; 
+  } 
+
+  .menu-item > a:hover { 
+    background-color: #A3C4BC; 
+    color: #413C58; 
+    transform: translateY(-5px); 
+    box-shadow: 0 0 10px rgb(102, 20, 139), 0 0 25px #0ff, 0 0 50px rgba(0, 255, 255, 0.4); 
+  } 
+
+  .submenu { 
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    min-width: 160px; 
+    background-color: #E7EFC5; 
+    padding: 8px; 
+    border-radius: 8px; 
+    z-index: 10; 
+  } 
+
+  .menu-item:hover .submenu { 
+    display: block; 
+  } 
+
+  .submenu a { 
+    display: block;
+    background-color: #F8CACA; 
+    color: #fff;
+    margin: 5px 0; 
+    border-radius: 5px; 
+  } 
+
+  .submenu a:hover { 
+    background-color: #A3C4BC; 
+    transform: translateX(5px); 
+  } 
+</style>
+<body>
+  <center><h1>Website Menu of Apple</h1></center>
+
+ <nav class="menu"> 
+ 
+        <div class="menu-item"> 
+            <a href="file:///C:/Users/admin/Desktop/Apple's%20Little%20Secrets/NOT%20IMPORTANT.html">Home</a> 
+            <div class="submenu"> 
+                <a href="#">Welcome</a> 
+                <a href="#">Updates</a> 
+                <a href="#">News</a> 
+            </div> 
+        </div> 
+ 
+        <div class="menu-item"> 
+            <a href="file:///C:/Users/admin/Desktop/Apple's%20Little%20Secrets/Apple%20Personal%20Resume.html">About</a> 
+            <div class="submenu"> 
+                <a href="#">Our School</a> 
+                <a href="#">Our Mission</a> 
+                <a href="#">Our Vision</a> 
+            </div> 
+        </div> 
+ 
+        <div class="menu-item"> 
+            <a href="file:///C:/Users/admin/Desktop/Apple's%20Little%20Secrets/Apple's%20Images.html">Gallery</a> 
+            <div class="submenu"> 
+                <a href="#">School Events</a> 
+                <a href="#">Activities</a> 
+                <a href="#">Students</a> 
+            </div> 
+        </div> 
+ 
+     
+        <div class="menu-item"> 
+            <a href="file:///C:/Users/admin/Desktop/Apple's%20Little%20Secrets/Apple's%20Registration%20form.html">Contact</a> 
+            <div class="submenu"> 
+                <a href="#">Email Us</a> 
+                <a href="#">Location</a> 
+                <a href="#">Telephone</a> 
+            </div> 
+        </div> 
+ 
+    </nav> 
+</body>
+</html>
